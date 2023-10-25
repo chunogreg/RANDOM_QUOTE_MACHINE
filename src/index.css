@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vb;
+}
+
+#quote-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 600px;
+  background-color: brown;
+  border-radius: 10px;
+  font-size: 20px;
+  color: azure;
+  text-align: center;
+}
+
+#text{
+  height: 120px;
+  width:450px;
+  border: 2px solid #06062f;
+  position: absolute;
+}
+
+#author{
+  height: 30px;
+  width: 162px;
+  border: 2px solid rgb(190, 179, 179);
+  position: absolute;
+  display: flex;
+  left: 664px;
+  bottom: 196px;
+  text-justify:0px;
+}
+      
+#new-quote{
+  background-color: rgb(100, 98, 100);
+  left: 330px;
+  bottom: 150px;
+  position: absolute;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  color: antiquewhite;
+  border-radius: 2px;
+  padding: 7px 5px;
+}
+
+#tweet-quote{
+  height: 30px;
+  width: 120px;
+  color: bisque;
+  background-color: rgb(80, 73, 143);
+  left: 470px;
+  bottom: 150px;
+  position: absolute;
+  padding: 3px 5px;
+}
